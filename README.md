@@ -35,3 +35,59 @@ Based on the analysis performed through this dashboard, some potential insights 
 3.  **Interact:** Explore the interactive elements, use the slicers, and drill down into the data to discover your own insights.
 
 ![Screenshot (115)](https://github.com/user-attachments/assets/79c20aa1-5caa-4f40-8674-fe1d2053c411)
+
+
+
+project 2
+
+# 🎬 Netflix Data Analysis using Python & Pandas
+
+This project explores and analyzes the Netflix dataset to discover insights on content trends, genres, countries, and time-based patterns.
+
+---
+
+## 📁 Dataset Information
+
+- **Source**: [Kaggle – Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+- **Size**: ~7,000+ records
+- **Columns**: Title, Director, Cast, Country, Date Added, Genre, etc.
+- **Format**: CSV
+
+---
+
+## 🧼 Data Cleaning Steps
+
+- Removed null values from critical columns
+- Converted `date_added` column to proper datetime format
+- Extracted `year_added` from `date_added`
+- Checked for duplicate records
+
+---
+
+## 🔍 Exploratory Data Analysis (EDA)
+
+- 📈 **Year-wise trend**: Number of shows added per year
+- 🌍 **Top 10 countries** with the most content
+- 🎭 **Genre distribution** using `listed_in` column
+- 🎞️ **Type distribution** – Movies vs TV Shows
+- 📅 **Content added over time**
+
+---
+
+## 📊 Tools & Libraries Used
+
+- **Python 3**
+- **Pandas** – Data cleaning, transformation
+- **Matplotlib** – Visualizations
+- **Seaborn** – Additional plots
+- **Google Colab** – Code environment
+
+---
+
+## 🧪 Sample Visuals
+
+(Add charts if uploaded as images)
+```markdown
+![Year-wise Chart](screenshots/year_added.png)
+![Top Genres](screenshots/top_genres.png)
+
